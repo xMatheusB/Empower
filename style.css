@@ -1,0 +1,284 @@
+
+
+body{
+    background-color: #11151C;
+    background: linear-gradient(45deg, #11151c, #364156);
+    background-size: 200% 200%;
+    height: 100vh;
+    text-shadow: 5px 5px 10px #000000;
+    overflow: hidden;
+    
+    
+}
+
+
+h1,h3{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+}
+
+.infoUser{
+    color: rgb(255, 255, 255);
+}
+
+header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    height: 10%;
+    width: 100%;
+    background-color: #212d40;
+    border-radius: 40px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-style: solid;
+    border-color: #364156;
+    border-top-style: none;
+
+}
+
+main{
+    position: fixed;
+    top: 15%;
+    height: 70%;
+    width: 100%;
+    left: 0%;
+    overflow: auto;
+
+
+}
+
+nav{
+    color:white;
+    position:fixed;
+    top:12%;
+    left: 0%;
+    height: 10%;
+    width: 100%;
+    
+}
+
+footer{
+    position: fixed;
+    top: 90%;
+    left: 0%;
+    height: 10%;
+    width: 100%;
+}
+
+p{
+ font-size: 25px;
+ color:black;
+ font-family: Arial, Helvetica, sans-serif;
+ 
+ 
+ }
+
+.table1{
+
+    width:100%;
+    font-weight: bolder;
+    
+    
+}
+
+.td1 {
+    width: auto;
+    align-content: center;
+    text-align: center;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #212d40;
+    color: #d66853;
+
+    border-style: solid;
+    border-color: #364156;
+    border-width: 2px;
+        
+}
+
+
+a:link{
+    color: #d66853;
+    text-decoration: none;
+    border:2px
+    
+}
+
+a:visited {
+  color: #7d4e57;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #E7E08B;
+    text-decoration: none;
+    text-decoration: underline
+}
+
+a:active {
+    text-decoration: underline
+}
+
+.submit{
+
+  background-color: #d66853; 
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer; 
+  text-shadow: 2px 2px 8px #000000;
+  
+
+}
+
+input[type="text"] {
+    width: 400px;
+    -webkit-transition: width .35s ease-in-out;
+    transition: width .35s ease-in-out;
+  }
+  input[type="text"]:focus {
+    width: 99%;
+  }
+
+  input[type="number"] {
+    width: 400px;
+    -webkit-transition: width .35s ease-in-out;
+    transition: width .35s ease-in-out;
+  }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+  input[type="number"]:focus {
+    width: 99%;
+  }
+
+input[type="date"] {
+    width: 400px;
+    -webkit-transition: width .35s ease-in-out;
+    transition: width .35s ease-in-out;
+  }
+  input[type="date"]:focus {
+    width: 99%;
+  }
+
+.formulario{
+
+    font-size: 20px;
+    
+}
+
+.nameInput{
+
+    display: inline-block;
+    width: 100%;
+    color:rgb(255, 255, 255);
+
+}
+
+.styleInput{
+
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 3px solid #212d40;
+        border-radius: 25px;
+        background-color: #364156;
+        color: white;
+        
+                
+    }
+    
+.column {
+
+    float: left;
+    width: 50%;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    background-color: #212d40;
+    border-style:solid;
+    border-color: #364156;
+    border-width: 2px;
+    margin: 0;
+    max-height: 80%;
+    overflow-y: scroll;
+    
+    }
+
+.column2 {
+
+float: left;
+width: 50%;
+border-radius: 25px;
+text-align: center;
+color: white;
+background-color: #212d40;
+border-style:solid;
+border-color: #364156;
+border-width: 2px;
+margin: 0;
+max-height: 626px;
+        
+}
+
+.column3 {
+    
+    width: 98%;
+    height: 95%;
+    text-align: center;
+    color: white;
+    border-style:none;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: scroll;
+    max-height: 626px;
+            
+    }
+
+*::-webkit-scrollbar {
+    width: 15px;
+    background-color: #212d4000;
+    
+    
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff00;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #d66853;
+    border-radius: 20px;
+    border: 3px none #ffffff;
+    
+    background-clip: padding-box;
+  }
+
+
+
+.row:after {
+
+        content: "";
+        display: table;
+        clear: both;
+
+    }
+
+* {
+
+        box-sizing: border-box;
+
+      }
